@@ -1,2 +1,2 @@
 # Python-project
-it's python project
+it's some python project
