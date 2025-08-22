@@ -1,0 +1,15 @@
+try:
+    file1 = open("output.txt","w")
+    writing_line = file1.write("Hello Programmer\n")
+    print(writing_line)
+    file1.close()
+    file1 = open("output.txt","a")
+    append_line = file1.write("this is the extra line added in the output.txt file")
+    print(append_line)
+    file1.close()
+    file1 = open("output.txt","r")
+    reading_line = file1.read()
+    print(reading_line)
+    file1.close()
+except Exception as e:
+    print(f"An error occoured while reading the file:  {e}")
